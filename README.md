@@ -5,3 +5,10 @@ Since I'm very early in the process of porting over code from Game Maker Studio 
 
 Circular Sum Noise
 Based on the 2017 method described by RujiK in the Game Maker Community (https://forum.gamemaker.io/index.php?threads/pure-gml-perlin-noise-function.25534/). Takes a heightmap as a PackedFloat32Array, and adds Circular Sum Noise with 4-pixel spacing, minimum radii of 8, and maximum radii of 64.
+
+The below are two example outputs, after additional processing to color the map by height.
+
+![An example of processed output.](https://github.com/cgmayers/FMapTools/blob/main/example_output/CircularSumNoiseOutput.png?raw=true)
+
+
+![An example of processed output.](https://github.com/cgmayers/FMapTools/blob/main/example_output/CircularSumNoiseOutput2.png?raw=true)
