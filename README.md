@@ -3,7 +3,8 @@ FMapTools (Fantasy Map Tools) is meant to serve as a continually expanding C++ G
 
 Since I'm very early in the process of porting over code from Game Maker Studio 2 to Godot 4, there is not much here yet.
 
-Circular Sum Noise
+## Circular Sum Noise
+
 Based on the 2017 method described by RujiK in the Game Maker Community (https://forum.gamemaker.io/index.php?threads/pure-gml-perlin-noise-function.25534/). Takes a heightmap as a PackedFloat32Array, and adds Circular Sum Noise with 4-pixel spacing, minimum radii of 8, and maximum radii of 64.
 
 The below are two example outputs, after additional processing to color the map by height.
